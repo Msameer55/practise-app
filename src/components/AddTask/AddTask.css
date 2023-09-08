@@ -1,0 +1,54 @@
+.add-form{
+    display: grid;
+    grid-gap: .3rem;
+}
+.add-form .form-control{
+    display: contents;
+    
+}
+
+.add-form label{
+    font-size: 17px;
+}
+
+.add-form  input{
+    padding: 7px 6px;
+    border-radius: 2px;
+    outline: none;
+    margin-bottom: 10px;
+    /* border: none; */
+}
+
+.add-form  input:focus{
+    border: 2px solid rgb(77, 139, 55);
+}
+
+
+.add-form .check-container{
+    display: flex;
+    align-items: center;
+}
+
+.add-form .check-container input {
+    margin-left: 40px;
+    margin-top: 10px;
+        line-height: normal;
+        width: 20px;
+        height: 20px;
+       
+}
+
+.add-form .submitForm{
+    color: #fff;
+    background-color: green;
+    border: none;
+    padding: 10px 0;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.add-form .submitForm:hover{
+    background-color: rgb(66, 138, 66);
+}
